@@ -124,12 +124,19 @@ Hybrid    & 0.00313±0.00015   & 0.00960±0.00252
 \end{tabular}
 \end{table}
 
+\section{A Multi-Modal Multi-Instance
+Multi-Label Deep Network with Optimal Transport}
 
-prec@10 recall@10
-Popularity 0.00231 0.00765
-Collaborative 0.00277±0.00011 0.00931±0.00036
-Content 0.00246±0.00011 0.00755±0.00191
-Hybrid 0.00313±0.00015 0.00960±0.00252
+Este trabajo apunta a predecir y explorar la correlaccion simultaneamente de la etiqueta. se propuso usar la red M3DN modelo Multi-modal Multi-instancia Multietiqueta , que modelo una red profunda para cada modalidad, en inpone la consistencia modal en bag-level requeriendo la prediccion bag-base de diferentes modalidades deberia generar una etiqueta similar de correlacion en el mismo bag.
+
+En la red M3DN entran  bags de instances de diferentes redes profundas de modos, basado en la teroia del transporte optimo(OT), bag-label predictions  requieren predicciones de etiquetas coherentes con la métrica de la etiqueta aprendida. En la otra mano tomando en cuenta la incertidumbre del conocimiento previo, se moldea la exploracion de la  correlacion de las etiquetas como un problema de ground metric. , 
+M3DN automaticamente aprende los predictores para diferentes modalidades 
+
+\begin{figure*}
+  \includegraphics[width=\textwidth,height=4cm]{figura2.png}
+  \caption{Flujo de M3DN}
+  \label{fig}
+\end{figure*}
 
 
 
