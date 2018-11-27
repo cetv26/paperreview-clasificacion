@@ -1,9 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.9.16)  26 NOV 2018 03:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  27 NOV 2018 01:08
 entering extended mode
 **./paperreview.tex
 (paperreview.tex
 LaTeX2e <2018-04-01> patch level 5
-("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
+
+("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.c
+ls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -112,7 +114,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box27
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
@@ -188,7 +190,9 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+))
+("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\algorith
+mic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
 ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -386,7 +390,8 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+) ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.
@@ -433,7 +438,9 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 12.
 
 -- Lines per column: 56 (exact).
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
+i"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
 \scratchdimen=\dimen137
@@ -491,12 +498,12 @@ Package etexcmds Info: Could not find \expanded.
 )))
 ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
 ds.sty"
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.st
 y"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -589,10 +596,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4520 strings out of 492973
- 66613 string characters out of 3127135
- 137025 words of memory out of 3000000
- 8306 multiletter control sequences out of 15000+200000
+ 4520 strings out of 492970
+ 66913 string characters out of 3127037
+ 137159 words of memory out of 3000000
+ 8308 multiletter control sequences out of 15000+200000
  51888 words of font info for 108 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,35p,584b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -610,7 +617,7 @@ sers/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
 C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
 b><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on paperreview.pdf (4 pages, 592818 bytes).
+Output written on paperreview.pdf (4 pages, 592832 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
