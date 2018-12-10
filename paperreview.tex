@@ -107,9 +107,23 @@ En la figura 1\cite{b1} se muestra la arquitectura de una red de fusión multi-m
 \end{figure*}
 
 
+\subsubsection{Multi-Task learning with Missing Labels}
+Los datos de entrenamiento requerirían implementar una función de pérdida personalizada o enmascarar capas para evitar propagar errores cuando una etiqueta no está disponible.
 
+Se implementó la arquitectura mostrada en la figura 4, aquí los cuadros de color gris representan las entradas a la red  , entre parentesis se muestran el tamaño de la salida de cada red , en azul las capas ocultas y rojo las capas de salidad .  
+
+en la practica como se ilustra en la figura se contruye un modelo para cada atributo pero todos comparten los mismos parámetros hasta laa capa de salida. Tambien se prepapa un conjunto de datos para cada atributo , los cuales son actualizados mediante el enjoque de descenso de gradiente(SGD) durante el entrenamiento . 
+\begin{figure}
+\centerline{\includegraphics[width=\textwidth,width=9cm]{figura4.png}}
+\caption{Multi-modal multi-task architecture}
+\label{fig}
+\end{figure}
 
 \subsection{Resultados}
+
+
+La tabla 2 muestra los resultados de los experimentos de recomendanciones , promedios y desviaciones estandares despues de 10 ejecuciones . Se observa que el modelo hibrido es el mas efectivo comparado con otras aproximaciones como filtrado colaborativo .
+
 
 
 \begin{table}[]
@@ -127,19 +141,56 @@ Hybrid    & 0.00313±0.00015   & 0.00960±0.00252
 \section{A Multi-Modal Multi-Instance
 Multi-Label Deep Network with Optimal Transport}
 
-Este trabajo apunta a predecir y explorar la correlaccion simultaneamente de la etiqueta. se propuso usar la red M3DN modelo Multi-modal Multi-instancia Multietiqueta , que modelo una red profunda para cada modalidad, en inpone la consistencia modal en bag-level requeriendo la prediccion bag-base de diferentes modalidades deberia generar una etiqueta similar de correlacion en el mismo bag.
 
-En la red M3DN entran  bags de instances de diferentes redes profundas de modos, basado en la teroia del transporte optimo(OT), bag-label predictions  requieren predicciones de etiquetas coherentes con la métrica de la etiqueta aprendida. En la otra mano tomando en cuenta la incertidumbre del conocimiento previo, se moldea la exploracion de la  correlacion de las etiquetas como un problema de ground metric. , 
-M3DN automaticamente aprende los predictores para diferentes modalidades 
+
+Este trabajo el objetivo es predecir y explorar la correlacción de las etiquetas  simultaneamente. se propuso usar la red M3DN (modelo Multi-modal Multi-instancia Multietiqueta) que modela las redes independientes para cada modalidad e impone la  consitencia en el bag level que se utiliza para la predicción de diferentes modalidades que tienen etiquetas correlacionadas
+
+Se denomina bag a cada muestra la cual esta representada por varias instancias  
+
+Se tiene N bags los cuales pueden ser positivos o negativos , además cada bag tiene k modalidades las cuales tienen un conjunto de instancias que son los datos de entrenamiento.
+
+
+\subsection{Transporte óptimo} 
+el transporte optimo se define como la distancia minima que existe entre dos distribuciones.
+
+\subsection{Multi-Modal Multi-instance Multi-label Deep Network (M3DN)}
+En la figura 3 se muestra las dos modalidades , el bag de 4 imagenes y el bag de 5 parrafos de texto.
+En base a la teoria del transporte optimo, M3DN adopta la distancia ooptima de transporte para medir la ccalidad de la prediccion que captura la informacion geolmetrica del esllpacio de la etiqueta subyacente  .
+
+ademas M3DN automaticamente aoprende de la correlacion entre las etiquetas de las diferentes modalidades. M3DN automaticamente aprenden los predictores de las diferentes modalidades .
 
 \begin{figure*}
   \includegraphics[width=\textwidth,height=4cm]{figura2.png}
-  \caption{Flujo de M3DN}
+  \caption{Multimodal Fusión}
   \label{fig}
 \end{figure*}
 
 
+\subsection{Resutados}
 
+Comparación de los resultados (mean+std) de M3DM sobre los datos de WKG Game-Hub.
+
+ \begin{figure*}
+  \includegraphics[width=\textwidth,height=4cm]{figura5.png}
+  \caption{Resultados}
+  \label{fig}
+\end{figure*}
+
+\subsection{Exploración de Correlación de etiquetas}
+
+Teniendo en cuenta que M3DN puede aprender la correlación de la etiqueta explícitamente.
+En esta subsección, examinamos la efectividad de M3DN.
+
+La exploración se lleva a cabo en el conjunto de datos  real de
+WKG Game-Hug. Muestreamos aleatoriamente 27 etiquetas, y
+la métrica del terreno aprendida por M3DN se muestra en la Figura 4, y
+escalamos el valor original en la matriz de costos en [-1, 1]. rojo
+color indica una correlación positiva, y azul indica una correlación negativa.
+\begin{figure}
+\centerline{\includegraphics[width=\textwidth,width=9cm]{figura6.png}}
+\caption{Multi-modal multi-task architecture}
+\label{fig}
+\end{figure}
 \section{Prepare Your Paper Before Styling}
 Before you begin to format your paper, first write and save the content as a 
 separate text file. Complete all content and organizational editing before 

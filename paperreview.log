@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  27 NOV 2018 01:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  9 DEC 2018 23:52
 entering extended mode
 **./paperreview.tex
 (paperreview.tex
@@ -415,6 +415,15 @@ LaTeX Warning: Label `fig' multiply defined.
 
 LaTeX Warning: Label `fig' multiply defined.
 
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
 )
 \openout1 = `paperreview.aux'.
 
@@ -538,46 +547,65 @@ File: figura1.png Graphic file (type png)
 <use figura1.png>
 Package pdftex.def Info: figura1.png  used on input line 104.
 (pdftex.def)             Requested size: 516.0076pt x 113.80585pt.
+[1{C:/Users/cetv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+<figura4.png, id=10, 593.21625pt x 471.26062pt>
+File: figura4.png Graphic file (type png)
+<use figura4.png>
+Package pdftex.def Info: figura4.png  used on input line 117.
+(pdftex.def)             Requested size: 256.0748pt x 203.4363pt.
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 115.
+               Default added (so using `tbp') on input line 129.
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 121.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 135.
 
 ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \vbox (badness 2376) has occurred while \output is active []
+Underfull \hbox (badness 1546) in paragraph at lines 156--156
+ \OT1/ptm/m/it/10 B. Multi-Modal Multi-instance Multi-label Deep Net-work
+ []
 
- [1{C:/Users/cetv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-<figura2.png, id=10, 1047.16219pt x 390.70969pt>
+<figura2.png, id=12, 1047.16219pt x 390.70969pt>
 File: figura2.png Graphic file (type png)
 <use figura2.png>
-Package pdftex.def Info: figura2.png  used on input line 136.
+Package pdftex.def Info: figura2.png  used on input line 163.
 (pdftex.def)             Requested size: 516.00606pt x 113.80965pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 185.
+<figura5.png, id=13, 1163.0953pt x 429.10312pt>
+File: figura5.png Graphic file (type png)
+<use figura5.png>
+Package pdftex.def Info: figura5.png  used on input line 174.
+(pdftex.def)             Requested size: 516.00514pt x 113.81pt.
+<figura6.png, id=14, 856.70062pt x 622.57594pt>
+File: figura6.png Graphic file (type png)
+<use figura6.png>
+Package pdftex.def Info: figura6.png  used on input line 190.
+(pdftex.def)             Requested size: 256.0748pt x 186.09024pt.
+[2 <./figura1.png> <./figura4.png>] [3 <./figura2.png> <./figura5.png> <./figur
+a6.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 236.
 
 
 ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-[2 <./figura1.png>] [3 <./figura2.png>]
-<fig1.png, id=22, 277.035pt x 183.68625pt>
+[4]
+<fig1.png, id=32, 277.035pt x 183.68625pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 290.
+Package pdftex.def Info: fig1.png  used on input line 341.
 (pdftex.def)             Requested size: 277.03432pt x 183.68578pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 301.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 352.
 
-
-("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+ ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 301.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 352.
 
 
 ** Conference Paper **
@@ -590,16 +618,16 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./fig1.png>] (paperreview.aux)
+[5 <./fig1.png>] (paperreview.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4520 strings out of 492970
- 66913 string characters out of 3127037
+ 4535 strings out of 492970
+ 67135 string characters out of 3127037
  137159 words of memory out of 3000000
- 8308 multiletter control sequences out of 15000+200000
+ 8320 multiletter control sequences out of 15000+200000
  51888 words of font info for 108 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,35p,584b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -617,9 +645,9 @@ sers/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
 C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
 b><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on paperreview.pdf (4 pages, 592832 bytes).
+Output written on paperreview.pdf (5 pages, 1402272 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
