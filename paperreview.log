@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  9 DEC 2018 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  10 DEC 2018 22:39
 entering extended mode
 **./paperreview.tex
 (paperreview.tex
@@ -424,6 +424,33 @@ LaTeX Warning: Label `fig' multiply defined.
 
 LaTeX Warning: Label `fig' multiply defined.
 
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
 )
 \openout1 = `paperreview.aux'.
 
@@ -587,26 +614,67 @@ Package pdftex.def Info: figura6.png  used on input line 190.
 (pdftex.def)             Requested size: 256.0748pt x 186.09024pt.
 [2 <./figura1.png> <./figura4.png>] [3 <./figura2.png> <./figura5.png> <./figur
 a6.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 236.
+<figura8.png, id=24, 335.00156pt x 327.47343pt>
+File: figura8.png Graphic file (type png)
+<use figura8.png>
+Package pdftex.def Info: figura8.png  used on input line 211.
+(pdftex.def)             Requested size: 256.0748pt x 250.31648pt.
+<figura9.png, id=25, 366.61969pt x 246.9225pt>
+File: figura9.png Graphic file (type png)
+<use figura9.png>
+Package pdftex.def Info: figura9.png  used on input line 217.
+(pdftex.def)             Requested size: 256.0748pt x 172.47908pt.
+<figura7.png, id=26, 797.22844pt x 579.66562pt>
+File: figura7.png Graphic file (type png)
+<use figura7.png>
+Package pdftex.def Info: figura7.png  used on input line 229.
+(pdftex.def)             Requested size: 256.0748pt x 186.18669pt.
+<figura10.png, id=27, 849.1725pt x 453.19313pt>
+File: figura10.png Graphic file (type png)
+<use figura10.png>
+Package pdftex.def Info: figura10.png  used on input line 240.
+(pdftex.def)             Requested size: 256.0748pt x 136.66432pt.
+<figura11.png, id=28, 841.64438pt x 412.54124pt>
+File: figura11.png Graphic file (type png)
+<use figura11.png>
+Package pdftex.def Info: figura11.png  used on input line 246.
+(pdftex.def)             Requested size: 256.0748pt x 125.51959pt.
 
+Underfull \vbox (badness 2173) has occurred while \output is active []
 
-("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-[4]
-<fig1.png, id=32, 277.035pt x 183.68625pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 341.
-(pdftex.def)             Requested size: 277.03432pt x 183.68578pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 352.
+ [4 <./figura8.png> <./figura9.png> <./figura7.png> <./figura10.png> <./figura1
+1.png>]
+<figura12.png, id=36, 889.07156pt x 471.26062pt>
+File: figura12.png Graphic file (type png)
+<use figura12.png>
+Package pdftex.def Info: figura12.png  used on input line 261.
+(pdftex.def)             Requested size: 256.0748pt x 135.73445pt.
+<figura13.png, id=37, 873.2625pt x 505.13719pt>
+File: figura13.png Graphic file (type png)
+<use figura13.png>
+Package pdftex.def Info: figura13.png  used on input line 267.
+(pdftex.def)             Requested size: 256.0748pt x 148.12007pt.
+<figura14.png, id=38, 895.84688pt x 490.08093pt>
+File: figura14.png Graphic file (type png)
+<use figura14.png>
+Package pdftex.def Info: figura14.png  used on input line 273.
+(pdftex.def)             Requested size: 256.0748pt x 140.0858pt.
+<figura15.png, id=39, 563.85657pt x 286.82156pt>
+File: figura15.png Graphic file (type png)
+<use figura15.png>
+Package pdftex.def Info: figura15.png  used on input line 280.
+(pdftex.def)             Requested size: 256.0748pt x 130.25891pt.
+<figura16.png, id=40, 575.14874pt x 347.79938pt>
+File: figura16.png Graphic file (type png)
+<use figura16.png>
+Package pdftex.def Info: figura16.png  used on input line 287.
+(pdftex.def)             Requested size: 256.0748pt x 154.8525pt.
 
- ("C:\Users\cetv\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 352.
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+ \OT1/ptm/m/it/10 D. An-nexML:ApproximateNearestNeighborSearch
+ []
 
+[5 <./figura12.png> <./figura13.png> <./figura14.png> <./figura15.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -618,36 +686,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5 <./fig1.png>] (paperreview.aux)
+[6 <./figura16.png>] (paperreview.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4535 strings out of 492970
- 67135 string characters out of 3127037
- 137159 words of memory out of 3000000
- 8320 multiletter control sequences out of 15000+200000
- 51888 words of font info for 108 fonts, out of 3000000 for 9000
+ 4519 strings out of 492970
+ 66924 string characters out of 3127037
+ 138110 words of memory out of 3000000
+ 8308 multiletter control sequences out of 15000+200000
+ 45849 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,35p,584b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,35p,1127b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/cetv/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cetv/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/cet
-v/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/User
-s/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/U
-sers/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
-C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
-b><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on paperreview.pdf (5 pages, 1402272 bytes).
+/cmmi10.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/times/utmbi8a.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/urw/times/utmr8a.pfb><C:/Users/cetv/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on paperreview.pdf (6 pages, 2652434 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
